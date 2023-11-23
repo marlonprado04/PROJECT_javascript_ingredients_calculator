@@ -9,11 +9,31 @@
 </head>
 
 <body>
+  <div class="main-container">
+    <div class="form-container">
+      <form action="#" class="form">
+        <label for="quantity">Quantidade</label>
+        <input type="text" name="quantity" class="quantity" placeholder="Ex: 1/4" required>
 
-  <form action="">
-    
-  </form>
+        <label for="unit">Unidade</label>
+        <input type="text" name="unit" class="unit" placeholder="Ex: Caixa" required>
 
+        <label for="ingredient">Ingrediente</label>
+        <input type="text" name="ingredient" class="ingredient" placeholder="Ex: Creme de leite">
+
+        <button type="submit" class="add-ingredient">Adicionar Ingrediente</button>
+
+      </form>
+    </div>
+
+    <div class="list-container">
+      <h1 class="list-title">Lista de Ingredientes: </h1>
+
+    </div>
+
+    <button class="finalize-recipe">Finalizar receita</button>
+
+  </div>
   <script src="main.js"></script>
 </body>
 
